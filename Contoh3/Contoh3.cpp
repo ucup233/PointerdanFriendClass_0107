@@ -28,3 +28,7 @@ void siswa::displayAll(orang& a) {
 void orang::setNama(string pNama) {
 	nama = pNama;
 }
+
+void siswa::setID(int pId) {
+	id = pId;
+}
