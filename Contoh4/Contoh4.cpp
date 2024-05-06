@@ -9,3 +9,8 @@ private:
 public:
 	friend void setNama(Mahasiswa& a, string);
 };
+
+void setNama(Mahasiswa& a, string pNama) {
+	a.nama = pNama;
+}
+
