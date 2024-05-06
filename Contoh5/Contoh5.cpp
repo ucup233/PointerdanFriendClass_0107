@@ -18,3 +18,10 @@ public:
 void manusia::showNilaiPelajar(pelajar& x) {
 	std::cout << x.nilai;
 }
+
+int main() {
+	manusia budi;
+	pelajar pbudi;
+	budi.showNilaiPelajar(pbudi);
+	return 0;
+}
